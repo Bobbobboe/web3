@@ -3,8 +3,10 @@ package ui.controller;
 import domain.db.DbException;
 import domain.db.PersonDbInMemory;
 import domain.db.ProductDbInMemory;
+import domain.model.DomainException;
 import domain.model.Person;
 import domain.model.Product;
+import sun.security.krb5.internal.crypto.Des;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -46,6 +48,10 @@ public class ControllerServlet extends HttpServlet {
             return "productoverview.jsp";
         }
 
+        if(action.equals("addProduct")) {
+            return "addProduct.jsp";
+        }
+
         if(action.equals("signUp")) {
             return "signUp.jsp";
         }
@@ -54,7 +60,64 @@ public class ControllerServlet extends HttpServlet {
             return handelSubmit(request);
         }
 
+        if(action.equals("submitProduct")) {
+            return handelSubmitProduct(request);
+        }
+
         return "index.jsp";
+    }
+
+    private String handelSubmitProduct(HttpServletRequest request) {
+        Product p = new Product();
+
+        ArrayList<String> errors = new ArrayList<>();
+
+        String name = request.getParameter("name");
+        String description = request.getParameter("description");
+        String price = request.getParameter("price");
+
+        try {
+            Double.parseDouble(price);
+        } catch (NumberFormatException e) {
+            errors.add("Please add a number for the price");
+        }
+
+        try {
+            p.setName(name);
+            request.setAttribute("name", name);
+        } catch (DomainException e) {
+            errors.add(e.getMessage());
+        }
+
+        try {
+            p.setDescription(description);
+            request.setAttribute("description", description);
+        } catch (DomainException e) {
+            errors.add(e.getMessage());
+        }
+
+        try {
+            p.setPrice(price);
+            request.setAttribute("price", price);
+        } catch (DomainException e) {
+            errors.add(e.getMessage());
+        }
+
+        try {
+            productDb.add(p);
+        } catch (DbException e) {
+            errors.add(e.getMessage());
+        }
+
+        if(errors.size() == 0) {
+            request.setAttribute("productDb", productDb);
+            return "productoverview.jsp";
+        }
+
+        else {
+            request.setAttribute("errors", errors);
+            return "addProduct.jsp";
+        }
     }
 
     private String handelSubmit(HttpServletRequest request) {

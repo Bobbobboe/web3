@@ -9,19 +9,23 @@
     <title>Sign Up</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<body>
 <div id="container">
     <jsp:include page="header.jsp">
         <jsp:param name="title" value="Sign Up"/>
     </jsp:include>
-    <main>
-        <div class="alert-danger">
-            <c:forEach var="error" items="${errors}">
-                <ul>
-                    <li>${error}</li>
-                </ul>
-            </c:forEach>
-        </div>
+<body>
+    <c:if test="${not empty errors}">
+
+            <main>
+                <div class="alert-danger">
+                    <c:forEach var="error" items="${errors}">
+                    <ul>
+                        <li>${error}</li>
+                    </ul>
+                </c:forEach>
+            </div>
+    </c:if>
+
 
         <form method="post" action="Controller?action=submit" novalidate="novalidate">
             <!-- novalidate in order to be able to run tests correctly -->
@@ -31,7 +35,8 @@
                                                                required value="${firstName}"></p>
             <p><label for="lastName">Last Name</label><input type="text" id="lastName" name="lastName"
                                                              required value="${lastName}"></p>
-            <p><label for="email">Email</label><input type="email" id="email" name="email" required value="${email}"></p>
+            <p><label for="email">Email</label><input type="email" id="email" name="email" required value="${email}">
+            </p>
             <p><label for="password">Password</label><input type="password" id="password" name="password"
                                                             required value="${password}"></p>
             <p><input type="submit" id="signUp" value="Sign Up"></p>
