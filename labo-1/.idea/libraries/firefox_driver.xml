@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="firefox-driver">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../junit/firefox-driver.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

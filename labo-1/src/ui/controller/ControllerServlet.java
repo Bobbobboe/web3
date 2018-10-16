@@ -6,7 +6,6 @@ import domain.db.ProductDbInMemory;
 import domain.model.DomainException;
 import domain.model.Person;
 import domain.model.Product;
-import sun.security.krb5.internal.crypto.Des;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

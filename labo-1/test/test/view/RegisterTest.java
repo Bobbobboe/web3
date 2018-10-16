@@ -11,7 +11,6 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class RegisterTest {
@@ -23,7 +22,7 @@ public class RegisterTest {
 		//System.setProperty("webdriver.chrome.driver", "/Users/.../web3pers/chromedriver");
 			// windows: gebruik dubbele \\ om pad aan te geven
 			// hint: zoek een werkende test op van web 2 ...
-		System.setProperty("webdriver.gecko.driver", "/home/bob/Documents/JUnit/geckodriver");
+		System.setProperty("webdriver.gecko.driver", "/home/bob/Documents/junit/geckodriver");
 		driver = new FirefoxDriver();
 		driver.get(path+"?action=signUp");
 	}

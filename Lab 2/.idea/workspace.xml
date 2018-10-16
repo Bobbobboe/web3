@@ -2,11 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="945cd289-32c3-43a2-9dcb-fdf25d180818" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo-1/.idea/artifacts/labo_1_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../labo-1/.idea/artifacts/labo_1_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo-1/.idea/libraries/hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../labo-1/.idea/libraries/hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo-1/.idea/libraries/jstl_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../labo-1/.idea/libraries/jstl_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo-1/.idea/libraries/junit_4_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../labo-1/.idea/libraries/junit_4_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo-1/.idea/libraries/selenium.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../labo-1/.idea/libraries/selenium.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo-1/.idea/libraries/selenium1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo-1/.idea/libraries/servlet_api.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo-1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../labo-1/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../labo-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../labo-1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../labo-1/labo-1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../labo-1/labo-1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../labo-1/out/artifacts/labo_1_war_exploded/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../labo-1/out/artifacts/labo_1_war_exploded/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../labo-1/web/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../labo-1/web/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo-1/out/artifacts/labo_1_war_exploded/WEB-INF/classes/domain/db/DbException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../labo-1/out/artifacts/labo_1_war_exploded/WEB-INF/classes/domain/db/DbException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo-1/out/artifacts/labo_1_war_exploded/WEB-INF/classes/domain/db/PersonDbInMemory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../labo-1/out/artifacts/labo_1_war_exploded/WEB-INF/classes/domain/db/PersonDbInMemory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo-1/out/artifacts/labo_1_war_exploded/WEB-INF/classes/domain/db/ProductDbInMemory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../labo-1/out/artifacts/labo_1_war_exploded/WEB-INF/classes/domain/db/ProductDbInMemory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo-1/out/artifacts/labo_1_war_exploded/WEB-INF/classes/domain/model/DomainException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../labo-1/out/artifacts/labo_1_war_exploded/WEB-INF/classes/domain/model/DomainException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo-1/out/artifacts/labo_1_war_exploded/WEB-INF/classes/domain/model/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../labo-1/out/artifacts/labo_1_war_exploded/WEB-INF/classes/domain/model/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo-1/out/artifacts/labo_1_war_exploded/WEB-INF/classes/domain/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/../labo-1/out/artifacts/labo_1_war_exploded/WEB-INF/classes/domain/model/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo-1/out/artifacts/labo_1_war_exploded/WEB-INF/classes/domain/model/ShopService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../labo-1/out/artifacts/labo_1_war_exploded/WEB-INF/classes/domain/model/ShopService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo-1/out/artifacts/labo_1_war_exploded/WEB-INF/classes/ui/controller/ControllerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../labo-1/out/artifacts/labo_1_war_exploded/WEB-INF/classes/ui/controller/ControllerServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo-1/out/production/labo-1/domain/db/DbException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../labo-1/out/production/labo-1/domain/db/DbException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo-1/out/production/labo-1/domain/db/PersonDbInMemory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../labo-1/out/production/labo-1/domain/db/PersonDbInMemory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo-1/out/production/labo-1/domain/db/ProductDbInMemory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../labo-1/out/production/labo-1/domain/db/ProductDbInMemory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo-1/out/production/labo-1/domain/model/DomainException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../labo-1/out/production/labo-1/domain/model/DomainException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo-1/out/production/labo-1/domain/model/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../labo-1/out/production/labo-1/domain/model/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo-1/out/production/labo-1/domain/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/../labo-1/out/production/labo-1/domain/model/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo-1/out/production/labo-1/domain/model/ShopService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../labo-1/out/production/labo-1/domain/model/ShopService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo-1/out/production/labo-1/ui/controller/ControllerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../labo-1/out/production/labo-1/ui/controller/ControllerServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo-1/out/test/labo-1/test/view/RegisterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../labo-1/out/test/labo-1/test/view/RegisterTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo-1/out/test/labo-1/test/view/SeleniumWorksWellTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../labo-1/out/test/labo-1/test/view/SeleniumWorksWellTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo-1/src/ui/controller/ControllerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo-1/src/ui/controller/ControllerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo-1/test/test/view/RegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo-1/test/test/view/RegisterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo-1/test/test/view/SeleniumWorksWellTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labo-1/test/test/view/SeleniumWorksWellTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,9 +46,10 @@
     <session id="-182801905">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -49,6 +77,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -61,13 +90,12 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ooo/labo2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../labo-1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -94,26 +122,23 @@
       <option name="presentableId" value="Default" />
       <updated>1538395521509</updated>
       <workItem from="1538395523602" duration="1000000" />
+      <workItem from="1539634862203" duration="618000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1000000" />
+    <option name="totallyTimeSpent" value="1618000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="0" width="1924" height="1042" extended-state="6" />
+    <frame x="-1" y="0" width="1922" height="1043" extended-state="6" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -121,15 +146,19 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
